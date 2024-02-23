@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost.csproj", "{AAFEDA7B-B810-49A1-A1B4-08AB84207A18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AA81BD60-A0B3-45E5-A265-99037E4569C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "..\ProductService\ProductService.csproj", "{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,12 @@ Global
 		{AAFEDA7B-B810-49A1-A1B4-08AB84207A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAFEDA7B-B810-49A1-A1B4-08AB84207A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAFEDA7B-B810-49A1-A1B4-08AB84207A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC1AF0F0-B9B6-4BE3-BA4D-43D0AFBE689F} = {AA81BD60-A0B3-45E5-A265-99037E4569C8}
 	EndGlobalSection
 EndGlobal
